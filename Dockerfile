@@ -4,9 +4,9 @@ FROM ruby:2.7
 RUN apt-get update -qq
 RUN apt-get install -y vim nodejs mariadb-server
  
-WORKDIR /yaits
-COPY Gemfile /yaits/Gemfile
-COPY Gemfile.lock /yaits/Gemfile.lock
+WORKDIR /stream
+COPY Gemfile /stream/Gemfile
+# COPY Gemfile.lock /stream/Gemfile.lock
 RUN bundle install
 
 # Add a script to be executed every time the container starts.

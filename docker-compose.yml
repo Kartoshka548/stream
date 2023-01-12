@@ -12,7 +12,7 @@ services:
     build: .
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 8888 -b '0.0.0.0'"
     volumes:
-      - .:/yaits
+      - .:/stream
     ports:
       - "8888:8888"
     depends_on:
