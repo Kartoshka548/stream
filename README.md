@@ -1,2 +1,2 @@
 # stream
-`make init` / `make up`
+`make build` / `make up`
