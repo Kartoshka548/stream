@@ -1,2 +1,2 @@
 # stream
-`make build` / `make up`
+`make build`; `make serve` (bash) / `make up` (detached)
