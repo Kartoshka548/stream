@@ -1,6 +1,6 @@
 # DOCKER section
 init:
-	docker-compose run --no-deps serve rails new . --force --database=data
+	docker-compose run --no-deps serve rails new . --force --database=mysql
 build:
 	docker-compose build
 
